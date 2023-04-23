@@ -1,0 +1,11 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: '0.0.0.0:9990'
+secret: "uH8Z1NGB9k3p"
+external-ui: /opt/clash-dashboard
+experimental:
+  ignore-resolve-fail: true
+

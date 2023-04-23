@@ -1,0 +1,9 @@
+version: '3'
+services:
+  clash:
+    build: .
+    ports:
+      - "9990:9990"
+      - "7890:7890"
+      - "7891:7891"
+
